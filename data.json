@@ -1,0 +1,99 @@
+[
+    {
+        "books": [
+            {
+                "code": "NTR-001",
+                "name": "Happy need",
+                "limitDays": 12
+            },
+            {
+                "code": "NTR-002",
+                "name": "Wonderful girl",
+                "limitDays": 5
+            },
+            {
+                "code": "NTR-003",
+                "name": "When you not like me",
+                "limitDays": 1
+            },
+            {
+                "code": "NTR-004",
+                "name": "Why not?",
+                "limitDays": 2
+            },
+            {
+                "code": "NTR-005",
+                "name": "I love you",
+                "limitDays": 3
+            },
+            {
+                "code": "NTR-006",
+                "name": "Can you help me?",
+                "limitDays": 4
+            },
+            {
+                "code": "NTR-007",
+                "name": "I can feel good",
+                "limitDays": 5
+            },
+            {
+                "code": "NTR-008",
+                "name": "Fast and forioust",
+                "limitDays": 7
+            },
+            {
+                "code": "NTR-009",
+                "name": "One piece",
+                "limitDays": 8
+            },
+            {
+                "code": "NTR-010",
+                "name": "Sweet guy",
+                "limitDays": 9
+            }
+        ]
+    },
+    {
+        "users": [
+            {
+                "name": "admin",
+                "pass": "1"
+            },
+            {
+                "name": "trongnguyen",
+                "pass": "123"
+            },
+            {
+                "name": "tamnguyen",
+                "pass": "123"
+            }
+        ]
+    },
+    {
+        "systems": [
+            {
+                "userName": "trongnguyen",
+                "books": [
+                    {
+                        "nameBook": "Can you help me?",
+                        "code": "NTR-006",
+                        "dayBorrow": "dd--mm-yyy: 20 - 5 - 2020",
+                        "limit": 5
+                    },
+                    {
+                        "nameBook": "I can feel good",
+                        "code": "NTR-007",
+                        "dayBorrow": "dd--mm-yyy: 20 - 5 - 2020",
+                        "limit": 4
+                    }
+                ],
+                "totalLimit": 9
+            },
+            {
+                "userName": "tamnguyen",
+                "books": [],
+                "totalLimit": 0
+            }
+        ]
+    }
+]
